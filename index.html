@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jaque Café - La cafetería para jugar con amigos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fuente sacada de google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Eater&family=Henny+Penny&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link rel="icon" href="Img/jaque.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javaScript/main.js" defer></script>
+    <title>Jaque Café</title>
+</head>
+<body>
+    <!-- HEADER DE NAVEGACIÓN -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Img/jaque.jpg" alt="Jaque Café Logo" class="logo-imagen">
+                <h1 class="logo-texto">Jaque Café</h1>
+            </div>
+            <button class="header-opciones" aria-label="Opciones header">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#ubicacion">Ubicacion</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--SECCIÖN DE INICIO-->
+    <section id="inicio" class="inicio-seccion"> 
+        <div class="inicio-video-contenedor">
+            <video autoplay muted loop playsinline  class="inicio-video">
+                <source src="video/videoInicio.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="cafe-particulas">               
+            <span class="particulas">♟️☕</span>        
+            <span class="particulas">☕♞</span>        
+            <span class="particulas">♜☕</span>        
+            <span class="particulas">☕♚</span>        
+            <span class="particulas">♛☕</span>    
+        </div>
+        <div class="inicio-contenido"> 
+            <h2>Bienvenido a Jaque Café</h2>
+            <p class="inicio-subtitulo">Un espacio donde el café se combina con juegos, buena compañía y momentos para disfrutar y desconectar.</p>           
+            <a href="#menu" class="btn-menu">Ver Menú</a>        
+        </div>    
+    </section>
+    <!-- SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="sobreNosotros">
+        <div class="contenedor-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <div class="sobre-contenido"> 
+                <div class="sobre-texto">
+                <h3>Nuestra Historia</h3>
+                <p> Jaque Café nace como un espacio para disfrutar buen café, desayunos y meriendas, mientras se comparte tiempo con amigos y familia. Inspirados en el ajedrez y los juegos de mesa, creemos en crear momentos de encuentro, charla y diversión, donde cada visita sea una pausa distinta en el día.</p>                    
+                <h3>Nuestra Filosofía</h3>                    
+                <p> En Jaque Café creemos que el tiempo compartido vale tanto como un buen café. Nuestra filosofía se basa en crear un ambiente cálido y acogedor, donde las personas puedan desconectarse, jugar, conversar y disfrutar sin apuros. Buscamos que cada mesa sea un punto de encuentro y cada visita, una experiencia para recordar.</p>                
+                </div>                
+                <div class="sobre-caracteristicas">           
+                    <div class="caracteristicas">                        
+                        <span class="icon">♟️</span>                        
+                        <h4>Comunidad y juego</h4>                        
+                        <p>Un espacio pensado para compartir, jugar y conectar con otros.</p>                    
+                    </div>                    
+                        <div class="caracteristicas">                        
+                        <span class="icon">☕</span>                        
+                        <h4>Café y calidad</h4>                        
+                        <p>Productos seleccionados para disfrutar cada desayuno y merienda.</p>                    
+                    </div>                    
+                    <div class="caracteristicas">                        
+                        <span class="icon">🕰️</span>                        
+                        <h4>Tiempo sin apuro</h4>                        
+                        <p>Un lugar para quedarse, relajarse y disfrutar del momento</p>                    
+                    </div>                
+                </div>           
+            </div>        
+        </div>    
+    </section>
+    <!-- SECCIÓN MENÚ -->   
+    <section id="menu" class="menu-seccion">
+        <div class="menu-contenedor">
+            <div class="borde-top"></div>
+            <div class="menu-header">
+                <div class="header-iconos">
+                    <span class="icon"><img src="Img/tower.png" alt="icono torre de ajedrez"></span>
+                    <span class="icon"><img src="Img/game.png" alt="icono reina de ajedrez"></span>
+                    <span class="icon"><img src="Img/latte-art.png" alt="icono taza de cafe"></span>
+                </div>
+                <div class="titulo-panel">
+                    <span class="decoracion-izq"></span>
+                    <span class="linea"></span>
+                    <span class="rombo">◆</span>
+                    <h2 class="titulo-menu">Menú Jaque Café</h2>
+                    <span class="decoracion-der"></span>
+                    <span class="rombo">◆</span>
+                    <span class="linea"></span>
+                </div>           
+            </div>
+            <div class="menu-grilla">
+                <div class="menu-columna">
+                    <div class="columna-header">
+                        <span class="columna-icon"><img src="Img/coffe-bebida.png" alt="icono bebida"></span>
+                        <h2>Bebidas</h2>
+                    </div>
+                    <ul class="menu-lista">
+                        <li>
+                            <span class="producto-nombre">Espresso</span>
+                            <span class="producto-precio">$120</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Café con leche</span>
+                            <span class="producto-precio">$160</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Cappuccino</span>
+                            <span class="producto-precio">$180</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Latte</span>
+                            <span class="producto-precio">$190</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Té</span>
+                            <span class="producto-precio">$140</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Chocolate caliente</span>
+                            <span class="producto-precio">$200</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-columna">
+                    <div class="columna-header">
+                        <span class="columna-icon"><img src="Img/croissant.png" alt="icono salado"></span>
+                        <h2>Salado</h2>
+                    </div>
+                    <ul class="menu-lista">
+                        <li>
+                            <span class="producto-nombre">Tostado jamón y queso</span>
+                            <span class="producto-precio">$220</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Medialuna salada</span>
+                            <span class="producto-precio">$120</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-columna">
+                    <div class="columna-header">
+                        <span class="columna-icon"><img src="Img/cupcake.png" alt="icono dulce"></span>
+                        <h2>Dulce</h2>
+                    </div>
+                    <ul class="menu-lista">
+                        <li>
+                            <span class="producto-nombre">Medialuna dulce</span>
+                            <span class="producto-precio">$100</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Brownie</span>
+                            <span class="producto-precio">$160</span>
+                        </li>
+                        <li>
+                            <span class="producto-nombre">Cookie</span>
+                            <span class="producto-precio">$130</span>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="combos-seccion">
+                <h3 class="combos-titulo">Combos Especiales</h3>
+                
+                <div class="combos-grilla">
+                    <div class="combo-carta">
+                        <div class="combo-header">
+                            <span class="combo-icon"><img src="Img/pawn.png" alt="icono peon combo Apertura"></span>
+                            <h3 class="combo-nombre">Apertura</h3>
+                            <span class="combo-precio">$240</span>
+                        </div>
+                        <p class="combo-descripcion">Café con leche + medialuna</p>
+                        <div class="combo-imagen">
+                            <span class="imagen-combo1"><img src="Img/imagenMenuCombo1.png" alt="combo 1 menu"></span>
+                        </div>
+                    </div>
+
+                    <div class="combo-carta">
+                        <div class="combo-header">
+                            <span class="combo-icon"><img src="Img/tower.png" alt="icono torre combo Enroque"></span>
+                            <h3 class="combo-nombre">Enroque</h3>
+                            <span class="combo-precio">$320</span>
+                        </div>
+                        <p class="combo-descripcion">Tostado + bebida caliente</p>
+                        <div class="combo-imagen">
+                            <span class="imagen-combo2"><img src="Img/imagenMenuCombo2.png" alt="combo 2 menu"></span>
+                        </div>
+                    </div>
+
+                    <div class="combo-carta">
+                        <div class="combo-header">
+                            <span class="combo-icon"><img src="Img/king.png" alt="icono rey combo Jaque Mate"></span>
+                            <h3 class="combo-nombre">Jaque Mate</h3>
+                            <span class="combo-precio">$300</span>
+                        </div>
+                        <p class="combo-descripcion">Bebida caliente + brownie</p>
+                        <div class="combo-imagen">
+                            <span class="imagen-combo3"><img src="Img/imagenMenuCombo3.png" alt="combo 3 menu"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="borde-bottom"></div>
+        </div> 
+    </section> 
+    <!-- SECCIÓN UBICACIÓN -->
+    <section id="ubicacion" class="location">        
+        <div class="ubicacion-contenedor">            
+            <h2>Encuéntranos</h2>            
+            <div class="lugar-contenido">                
+                <div class="lugar-informacion">                    
+                    <div class="lugar-direccion">                        
+                        <h3>📍 Dirección</h3>                        
+                        <p>Plaza FLores<br>Trinidad, Flores<br>Código postal:85000</p>
+                    </div>                                      
+                    <div class="lugar-horario">                        
+                                <h3>🕐 Horarios</h3>                        
+                                <p><span class="enfasis-dias">Lunes - Viernes:</span> 7:00 AM - 8:00 PM<br> <span class="enfasis-dias">Sábados:</span> 8:00 AM - 9:00 PM<br><span class="enfasis-dias">Domingos:</span> 9:00 AM - 6:00 PM</p>                    
+                    </div>                    
+                    <div class="lugar-contacto">                        
+                                <h3>📞 Contacto</h3>                        
+                                <p>Teléfono: (+598) 91 090 538<br>Email: info@jaquecafe.com</p>                    
+                    </div>
+                    <div class="lugar-mapa">                    
+                        <p>🗺️ Mapa de ubicación</p>                    
+                        <p style="font-size: 14px; color: #666;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d699.3267387485207!2d-56.8975085708181!3d-33.51237221866115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a6a18211c94b6b%3A0x8447cda6ebea880!2sPlaza%20Flores!5e0!3m2!1ses!2suy!4v1769643664197!5m2!1ses!2suy" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </p>
+                    </div>                                                                                       
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- SECCIÓN CONTACTO -->    
+    <section id="contacto" class="contact">        
+        <div class="contacto-contenedor">
+            <div class="contacto-contenido">
+                <h2>Contáctanos</h2>            
+                <p>¿Tienes alguna pregunta? Nos encantaría saber de ti</p>   
+            </div>                                     
+            <form class="contacto-form">                
+                <div class="form-groupo">                    
+                    <label for="nombre">Nombre:</label>                    
+                    <input type="text" id="nombre" name="nombre" required>                
+                </div>                
+                <div class="form-groupo">                    
+                    <label for="email">Email:</label>                    
+                    <input type="email" id="email" name="email" required>                
+                </div>                
+                <div class="form-groupo">                    
+                    <label for="mensaje">Mensaje:</label>                    
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>                
+                </div>                
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>           
+            </form>        
+        </div>    
+    </section>
+    <!-- FOOTER -->    
+    <footer>        
+        <div class="footer-contenedor">            
+            <div class="footer-contenido">                
+                <div class="footer-seccion">                    
+                    <h3>Jaque Café</h3>                    
+                    <p>El mejor café artesanal de la ciudad</p>                
+                </div>                
+                <div class="footer-seccion">                    
+                    <h4>Enlaces</h4>                    
+                    <ul>                        
+                        <li><a href="#inicio">Inicio</a></li>                        
+                        <li><a href="#nosotros">Nosotros</a></li>                        
+                        <li><a href="#menu">Menú</a></li>                    
+                    </ul>                
+                </div>                
+                <div class="footer-secccion">                    
+                    <h4>Síguenos</h4>                    
+                    <div class="social-links">                        
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>                        
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>                        
+                        <a href="https://x.com/?lang=es" target="_blank">Twitter</a>                    
+                    </div>                
+                </div>            
+                
+            </div>            
+            <div class="footer-bottom">                
+                <p>&copy; 2024 Jaque Café. Todos los derechos reservados.</p>            
+            </div>        
+        </div>    
+    </footer>          
+</body>
+</html>
